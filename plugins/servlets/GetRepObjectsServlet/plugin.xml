@@ -7,6 +7,6 @@
     <description>manage the repo</description>
     <classname>io.github.tmgg.kettle.carte.GetRepObjectsServlet</classname>
     <libraries>
-        <library name="../lib/kettle-carte-plugin-0.0.2.jar"></library>
+        <library name="../lib/kettle-carte-plugin-0.0.3.jar"></library>
     </libraries>
 </plugin>
