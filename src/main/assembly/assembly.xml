@@ -11,13 +11,13 @@
             <includes>
                 <include>*.jar</include>
             </includes>
-            <outputDirectory>/servlets/lib/</outputDirectory>
+            <outputDirectory>plugins/servlets/lib/</outputDirectory>
         </fileSet>
 
         <!-- 从目标目录拷贝文件去压缩 -->
         <fileSet>
             <directory>plugins</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory>/plugins/</outputDirectory>
         </fileSet>
 
 
