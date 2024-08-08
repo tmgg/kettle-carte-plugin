@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<plugin id="UploadRepObjectServlet">
+    <description>manage the repo</description>
+    <classname>io.github.tmgg.kettle.carte.UploadRepObjectServlet</classname>
+    <libraries>
+            <library name="../lib/kettle-carte-plugin-0.0.1.jar"></library>
+    </libraries>
+</plugin>
