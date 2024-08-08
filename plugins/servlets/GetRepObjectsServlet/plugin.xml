@@ -5,7 +5,7 @@
 
 <plugin id="GetRepObjectsServlet">
     <description>manage the repo</description>
-    <classname>org.pentaho.di.www.plugin.GetRepObjectsServlet</classname>
+    <classname>io.github.tmgg.kettle.carte.GetRepObjectsServlet</classname>
     <libraries>
         <library name="../lib/kettle-carte-plugin-0.0.2.jar"></library>
     </libraries>

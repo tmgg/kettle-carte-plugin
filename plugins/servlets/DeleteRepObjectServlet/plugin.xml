@@ -2,7 +2,7 @@
 
 <plugin id="DeleteRepObjectServlet">
     <description>manage the repo</description>
-    <classname>org.pentaho.di.www.plugin.DeleteRepObjectServlet</classname>
+    <classname>io.github.tmgg.kettle.carte.DeleteRepObjectServlet</classname>
     <libraries>
         <library name="../lib/kettle-carte-plugin-0.0.2.jar"></library>
     </libraries>
