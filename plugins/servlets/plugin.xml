@@ -3,10 +3,10 @@
 
 
 
-<plugin id="plugin-repo-obj2">
+<plugin id="plugin-repo-obj">
     <description>manage the repo</description>
     <classname>io.github.tmgg.kettle.carte.plugin.RepServlet</classname>
     <libraries>
-        <library name="lib/kettle-carte-plugin-0.0.4.jar"></library>
+        <library name="lib/kettle-carte-plugin-0.0.5.jar"></library>
     </libraries>
 </plugin>
