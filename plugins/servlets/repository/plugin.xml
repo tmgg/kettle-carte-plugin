@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<plugin id="plugin-repo-obj2">
+    <description>manage the repo</description>
+    <classname>io.github.tmgg.kettle.carte.plugin.RepServlet</classname>
+    <libraries>
+        <library name="lib/kettle-carte-plugin-0.0.4.jar"></library>
+    </libraries>
+</plugin>
