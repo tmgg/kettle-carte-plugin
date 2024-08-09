@@ -48,6 +48,7 @@ public class RepServlet extends BaseHttpServlet implements CartePluginInterface 
         try {
             Repository repository = RepUtils.openRepository(repOption);
             if (repository == null) {
+                response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
                 out.println(new WebResult(WebResult.STRING_ERROR, "repository [" + repOption + "] not found"));
                 return;
             }
@@ -76,6 +77,7 @@ public class RepServlet extends BaseHttpServlet implements CartePluginInterface 
             repository.disconnect();
         } catch (Exception e) {
             e.printStackTrace();
+            response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
             out.println(new WebResult(WebResult.STRING_ERROR, e.getMessage()));
         }
 
