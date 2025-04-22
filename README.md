@@ -6,7 +6,7 @@
 - rep： 存储库名称
 - id：  对象ID（通过tree接口获得，类似文件路径）
 
-## 获取树装列表
+## 获取树状列表
 /kettle/plugin-repository-object/tree
 ## 上传
 /kettle/plugin-repository-object/upload
