@@ -1,4 +1,4 @@
-# Carte 增加得接口列表
+# Carte 接口列表
 主要针对存储库得作业和转换，按kettle源码，统一叫做repository object，这里检测对象
 
 
